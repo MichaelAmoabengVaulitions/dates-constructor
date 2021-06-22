@@ -15,15 +15,15 @@ export default function addMonths (
   }
   const dayOfMonth = date.getDate()
 
-  const endOfDesiredMonth = new Date(date.getTime())
-  endOfDesiredMonth.setMonth(date.getMonth() + amount + 1, 0)
-  const daysInMonth = endOfDesiredMonth.getDate()
+  const endOfMonth = new Date(date.getTime())
+  endOfMonth.setMonth(date.getMonth() + amount + 1, 0)
+  const daysInMonth = endOfMonth.getDate()
   if (dayOfMonth >= daysInMonth) {
-    return endOfDesiredMonth
+    return endOfMonth
   } else {
     date.setFullYear(
-      endOfDesiredMonth.getFullYear(),
-      endOfDesiredMonth.getMonth(),
+      endOfMonth.getFullYear(),
+      endOfMonth.getMonth(),
       dayOfMonth
     )
     return date

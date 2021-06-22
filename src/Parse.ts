@@ -36,6 +36,6 @@ export const parse = (dateString: string): Date => {
     }
   }
 
-  console.log('🚀 ~ file: index.ts ~ line 68 ~ parse ~ response', currentDateFromDateString, response)
+  console.log(currentDateFromDateString, response)
   return response
 }

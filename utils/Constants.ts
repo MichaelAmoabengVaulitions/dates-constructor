@@ -5,7 +5,11 @@ export const MILLISECONDS_IN_MINUTE = 60000
 
 export const MILLISECONDS_IN_HOUR = 3600000
 
+export const HOURS_IN_DAY = 3600000
+
 export const DAYS_IN_WEEK = 7
+
+export const WEEKS_IN_MONTH = 4
 
 export const DAYS_IN_MONTH = 31
 
@@ -20,3 +24,5 @@ export enum Operators {
 }
 
 export const OPERATORS = [Operators.add, Operators.subtract, Operators.roundToNearest]
+
+export const currentDate = new Date()
