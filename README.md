@@ -23,6 +23,10 @@ which will take a date, and return a string like the above.
 To run and see the results in you terminal, use :
 
 ```bash
+yarn # or npm install
+```
+
+```bash
 yarn start # or npm start 
 ```
 
