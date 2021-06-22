@@ -17,7 +17,7 @@ export default function stringify (date: Date): string {
   const differenceInSeconds = offsetInSeconds(date) * -1
 
   const stringFromDate =
-        `now${transformTimeDifference(differenceInYears)}y${transformTimeDifference(differenceInMonths)}M${transformTimeDifference(differenceInWeeks)}w${transformTimeDifference(differenceInDays)}d${transformTimeDifference(differenceInHours)}w${transformTimeDifference(differenceInMinutes)}m${transformTimeDifference(differenceInSeconds)}s`
+        `now${transformTimeDifference(differenceInYears)}y${transformTimeDifference(differenceInMonths)}M${transformTimeDifference(differenceInWeeks)}w${transformTimeDifference(differenceInDays)}d${transformTimeDifference(differenceInHours)}h${transformTimeDifference(differenceInMinutes)}m${transformTimeDifference(differenceInSeconds)}s`
   console.log(stringFromDate)
   return stringFromDate
 }
