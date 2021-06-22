@@ -15,6 +15,8 @@ export const DAYS_IN_MONTH = 31
 
 export const MONTHS_IN_YEAR = 12
 
+export const MILLISECONDS_IN_WEEK = 604800000
+
 export const TIME_UNITS = ['y', 'M', 'd', 'h', 'm', 's', 'w']
 
 export enum Operators {
