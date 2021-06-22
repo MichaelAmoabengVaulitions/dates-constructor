@@ -18,6 +18,6 @@ export default function stringify (date: Date): string {
 
   const stringFromDate =
         `now${transformTimeDifference(differenceInYears)}y${transformTimeDifference(differenceInMonths)}M${transformTimeDifference(differenceInWeeks)}w${transformTimeDifference(differenceInDays)}d${transformTimeDifference(differenceInHours)}w${transformTimeDifference(differenceInMinutes)}m${transformTimeDifference(differenceInSeconds)}s`
-  console.log('🚀 ~ file: Stringify.ts ~ line 79 ~ stringify ~ stringFromDate', stringFromDate)
+  console.log(stringFromDate)
   return stringFromDate
 }
